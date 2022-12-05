@@ -1,0 +1,468 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Api/CleanArchitecture.Core.Api.csproj": {}
+  },
+  "projects": {
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Api/CleanArchitecture.Core.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Api/CleanArchitecture.Core.Api.csproj",
+        "projectName": "CleanArchitecture.Core.Api",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Api/CleanArchitecture.Core.Api.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/CleanArchitecture.Core.Infrastructure.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/CleanArchitecture.Core.Infrastructure.csproj"
+              },
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/CleanArchitecture.Core.Repository.Ef.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/CleanArchitecture.Core.Repository.Ef.csproj"
+              },
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj",
+        "projectName": "CleanArchitecture.Core.Domain",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/CleanArchitecture.Core.SharedKernel.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/CleanArchitecture.Core.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/CleanArchitecture.Core.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/CleanArchitecture.Core.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Core.Infrastructure",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/CleanArchitecture.Core.Infrastructure.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/CleanArchitecture.Core.Repository.Ef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/CleanArchitecture.Core.Repository.Ef.csproj",
+        "projectName": "CleanArchitecture.Core.Repository.Ef",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/CleanArchitecture.Core.Repository.Ef.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Repository.Ef/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj"
+              },
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj",
+        "projectName": "CleanArchitecture.Core.Service",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/CleanArchitecture.Core.Service.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj": {
+                "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/CleanArchitecture.Core.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/CleanArchitecture.Core.SharedKernel.csproj",
+        "projectName": "CleanArchitecture.Core.SharedKernel",
+        "projectPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/CleanArchitecture.Core.SharedKernel.csproj",
+        "packagesPath": "/home/kothargyi/.nuget/packages/",
+        "outputPath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.SharedKernel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kothargyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

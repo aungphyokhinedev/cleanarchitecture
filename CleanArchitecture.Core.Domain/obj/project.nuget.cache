@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hnikd+jSGzGdDoNprSDu/b9UHpcPIE/1sj0gAZJ0SPLgREh2c5MaZQ49XwTziMxlfeX0GNgtqt6xUtadVL/1HA==",
+  "success": true,
+  "projectFilePath": "/home/kothargyi/Projects/dotnet/CleanArchitecture.Core/CleanArchitecture.Core.Domain/CleanArchitecture.Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/kothargyi/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/home/kothargyi/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

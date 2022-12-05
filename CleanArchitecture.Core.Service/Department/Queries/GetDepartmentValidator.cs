@@ -1,0 +1,18 @@
+using FluentValidation;
+
+namespace CleanArchitecture.Core.Service;
+
+public class GetDepartmentValidator : AbstractValidator<GetDepartmentWithPaginationQuery>
+{
+    public GetDepartmentValidator()
+    {
+        RuleFor(x => x.Name)
+            .NotEmpty().WithMessage("Name is required.");
+
+        RuleFor(x => x.PageNumber)
+            .GreaterThanOrEqualTo(1).WithMessage("PageNumber at least greater than or equal to 1.");
+        
+        RuleFor(x => x.PageSize)
+            .GreaterThanOrEqualTo(1).WithMessage("PageSize at least greater than or equal to 1.");
+    }
+}
